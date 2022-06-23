@@ -1,7 +1,38 @@
-body{
-    background-color: #655f5f;
+body {
+    background-color:dimgray;
+  }
+strong{
+color: chocolate;
+  }
+
+  h1{
+    color: cadetblue;
+  }
+
+h3{ 
+    color:lightskyblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial;
+}
+a{ 
+    color:royalblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
 }
 
-b{
-    color: rgb(226, 191, 16);
+.column {
+    float: left;
+    width: 20%;
+  }
+  
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* remove underline from links */
+a:link {
+    text-decoration: none;
 }
