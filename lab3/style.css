@@ -1,0 +1,8 @@
+.qtySize {
+    width: 150px;
+}
+
+ul>li>h4 {
+    color: white;
+    text-align: center !important;
+}
